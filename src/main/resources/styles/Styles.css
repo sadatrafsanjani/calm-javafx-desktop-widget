@@ -1,0 +1,38 @@
+
+.background-color {
+    -fx-background-color: rgba(46, 204, 113, 1);
+}
+
+.shut-down-button {
+    -fx-background-image: url("../images/shut-down.png");
+}
+
+.lock-button {
+    -fx-background-image: url("../images/lock.png");
+}
+
+.restart-button {
+    -fx-background-image: url("../images/restart.png");
+}
+
+.close-button, .shut-down-button, .lock-button, .restart-button {
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 60%;
+    -fx-background-position: center;
+    -fx-background-color: rgba(46, 204, 113, 1);
+}
+
+.shut-down-button:hover, .lock-button:hover, .restart-button:hover {
+    
+    -fx-background-color: rgba(194, 24, 7, 1);
+}
+
+.close-button {
+    -fx-background-image: url("../images/close.png");
+    -fx-background-size: 80%;
+    -fx-background-color: rgba(240, 240, 240, .2);
+}
+
+.close-button:hover {
+    -fx-background-color: rgba(240, 240, 240, .5);
+}
